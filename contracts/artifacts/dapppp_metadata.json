@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CreateContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dapppp.sol": "dapppp"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x33332d5cfa80dd10702fb40fc0971fd8adce18117599cd8117d2e9be78c314a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d7c09163fab1ca86e7737f0bbf2a8ec65192291f3a317317a8d14b90b8a9844",
+				"dweb:/ipfs/QmQTTfaGz6vCiCYUG4xLrCrjcbuKqsngenQDcTMpWRZw3p"
+			]
+		},
+		"contracts/dapppp.sol": {
+			"keccak256": "0x11464927ee11120a1be6f2dafc839db437424939639a26506267d4173adad599",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4a2c67178f81d827385aaeeabc82827ceb4aafefba283cb500257a1760fc2707",
+				"dweb:/ipfs/QmWL61nQKmukmYvRWFSmEWYWvzwudsNJUuawm3hSUWeDwP"
+			]
+		}
+	},
+	"version": 1
+}
